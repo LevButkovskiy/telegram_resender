@@ -1,0 +1,39 @@
+{
+	"name": "telegram_resender",
+	"version": "0.0.1",
+	"description": "Resender messages in telegram",
+	"main": "index.js",
+	"scripts": {
+		"dev": "ts-node --require dotenv-flow/config index.ts",
+		"lint": "eslint .",
+		"lint2": "./node_modules/.bin/eslint app.js",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bluebird": "^3.7.2",
+		"dotenv-flow": "^3.3.0",
+		"puppeteer": "^21.1.0",
+		"puppeteer-extra": "^3.3.6",
+		"puppeteer-extra-plugin-session": "^1.0.1",
+		"ts-node": "^10.9.1"
+	},
+	"devDependencies": {
+		"@types/bluebird": "^3.5.38",
+		"@types/node": "^20.5.7",
+		"@types/node-fetch": "^2.6.4",
+		"@types/puppeteer": "^7.0.4",
+		"@typescript-eslint/eslint-plugin": "^6.5.0",
+		"@typescript-eslint/parser": "^6.5.0",
+		"eslint": "8.2.0",
+		"eslint-config-airbnb": "19.0.4",
+		"eslint-import-resolver-typescript": "^3.6.0",
+		"eslint-plugin-import": "2.25.3",
+		"eslint-plugin-jsx-a11y": "6.5.1",
+		"eslint-plugin-react": "7.28.0",
+		"eslint-plugin-react-hooks": "4.3.0",
+		"prettier": "^3.0.3",
+		"typescript": "^5.2.2"
+	}
+}

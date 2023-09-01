@@ -1,0 +1,39 @@
+{
+	"extends": ["airbnb", "plugin:@typescript-eslint/recommended"],
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint"],
+	"root": true,
+	"rules": {
+		"no-console": ["error", {"allow": ["clear", "info", "error", "dir", "trace"]}],
+
+		//Off extended rules
+		"linebreak-style": "off",
+		"quotes": "off",
+		"semi": "off",
+		"no-tabs": "off",
+		"indent": "off",
+		"curly": "off",
+		"object-curly-spacing": "off",
+		"max-len": ["error", {"code": 130}],
+		"implicit-arrow-linebreak": "off",
+		"function-paren-newline": "off",
+		"@typescript-eslint/ban-ts-comment": "off",
+
+		//Для корректной работы typescript
+		"import/extensions": [
+			"error",
+			"ignorePackages",
+			{
+				"js": "never",
+				"jsx": "never",
+				"ts": "never",
+				"tsx": "never"
+			}
+		]
+	},
+	"settings": {
+		"import/resolver": {
+			"typescript": {}
+		}
+	}
+}
