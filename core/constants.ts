@@ -17,6 +17,7 @@ export const SELECTORS = {
 			result: ".search-result",
 		},
 		messages: {
+			group: ".message-date-group",
 			list: ".Message",
 			content: ".text-content",
 		},
