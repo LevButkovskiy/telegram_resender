@@ -19,7 +19,8 @@ yarn install
 TELEGRAM_BOT_URL= // Telegram API URL
 TELEGRAM_BOT_TOKEN= // Telegram Bot token
 TELEGRAM_CHAT_ID= // Id of the chat where the message will be sent
-TELEGRAM_TWO_FACTOR_AUTH_PASSWORD= //Two factor password
+TELEGRAM_TWO_FACTOR_AUTH_PASSWORD= // Two factor password
+AMQP_URL= // Rabbit MQ URL
 ```
 
 3. Run project
